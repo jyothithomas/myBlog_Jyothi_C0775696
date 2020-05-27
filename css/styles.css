@@ -1,8 +1,8 @@
-/* stylesheet for fitness club wesite created by .... */
+/* stylesheet for myblog  wesite created by Jyothi Thomas */
 
 /* styles for the body of the pages */
 body {
-    background-color: #ffff99;
+    background-color: rosybrown;
   }
   
   /* styles to have fluid images */
@@ -237,12 +237,12 @@ body {
     /* styles for body giving gradients */
     body {
       /* Firefox */
-      background: -moz-linear-gradient(#ffffff, #ffff99);
+      background: -moz-linear-gradient(#ddf864, #9757df);
       /* Opera */
-      background: -o-linear-gradient(#ffffff, #ffff99);
+      background: -o-linear-gradient(#ddf864, #9757df);
       /* Safari and Chrome */
-      background: -webkit-linear-gradient(#ffffff, #ffff99);
-      background: linear-gradient(#ffffff, #ffff99);
+      background: -webkit-linear-gradient(#ddf864, #9757df);
+      background: linear-gradient(#ddf864, #9757df);
       background-attachment: fixed;
     }
   
