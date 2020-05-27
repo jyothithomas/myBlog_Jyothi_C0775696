@@ -237,12 +237,12 @@ body {
     /* styles for body giving gradients */
     body {
       /* Firefox */
-      background: -moz-linear-gradient(#ddf864, #9757df);
+      background: -moz-linear-gradient(#ddf864, #df6332);
       /* Opera */
-      background: -o-linear-gradient(#ddf864, #9757df);
+      background: -o-linear-gradient(#ddf864, #df6332);
       /* Safari and Chrome */
-      background: -webkit-linear-gradient(#ddf864, #9757df);
-      background: linear-gradient(#ddf864, #9757df);
+      background: -webkit-linear-gradient(#ddf864, #df6332);
+      background: linear-gradient(#ddf864, #df6332);
       background-attachment: fixed;
     }
   
