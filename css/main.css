@@ -78,7 +78,7 @@ nav {
 
 .related
     {
-        width: 27%;
+        width: 20%;
     }
     footer
     {
@@ -169,6 +169,10 @@ nav {
     /* styles for the tablet class */
     .tablet {
       display: block;
+    }
+    .related
+    {
+      width: 15%;
     }
   
     /* styles for the description list terms */
@@ -269,6 +273,10 @@ nav {
       background: -webkit-linear-gradient(#ddf864, #df6332);
       background: linear-gradient(#ddf864, #df6332);
       background-attachment: fixed;
+    }
+    .related
+    {
+        width: 40%;
     }
 }
     /* body {

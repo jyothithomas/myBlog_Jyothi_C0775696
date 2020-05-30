@@ -127,16 +127,17 @@ body {
   
     /* styles for main */
     main {
-      clear: right;
-      margin-top: 4em;
-      width: 70%
+      width: 80%; 
+      float: right; 
+      padding:10px;
     }
-  
-    aside {
-      float: left;
-      margin: 0 1.5%;
-      width: 20%;
-    }
+    aside { 
+      float:left; 
+      width: 20%; 
+      padding:5px;  
+      margin:10px; 
+      height:100px; 
+  } 
   
     /* styles for mobile class */
     .mobile {
