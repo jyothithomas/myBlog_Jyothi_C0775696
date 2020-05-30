@@ -1,35 +1,28 @@
 /* stylesheet for myblog  wesite created by Jyothi Thomas */
 
 /* styles for the body of the pages */
-body {
-    background-color: #ddf864;
-  }
-  
-  /* styles to have fluid images */
-  img {
+body
+{
+    background-color:#ddf864;
+}
+ /* styles to have fluid images */
+ img {
+
     max-width: 100%;
-  }
-  
-  /* Adopting the mobile-first strategy */
-  /* styles for the Mobile Layout */
-  
-  /* styles for the id = container */
-  #container {
+}
+#container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  /* styles for the logo in the header div */
-  header {
+}
+header 
+{
     margin-top: 0.2em;
-    background-color: #ffffff;
     border-radius: 0.5em;
     text-align: center;
-  }
-  
-  /* styles for the nav bar containing the links */
-  nav {
+}
+/* styles for the nav bar containing the links */
+nav {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 1.25em;
     font-weight: bold;
@@ -58,7 +51,6 @@ body {
     color: #ffffff;
     text-decoration: none;
   }
-  
   /* styles for the mobile class */
   .mobile {
     display: inline;
@@ -68,51 +60,54 @@ body {
   .desktop {
     display: none;
   }
-  
-  /* styles for the main div containg the page information */
-  main {
+  p{
+    margin-top: 1.5em;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 1em;
-    margin-top: 0.5em;
-    padding: 1em;
-    border-radius: 1em;
-    border-top: solid 0.2em brown;
-    border-bottom: solid 0.2em brown;
-    background-color: #ffffff;
+    font-size: 0.8em;
+    text-align: justify;
   }
-  
-  /* styles for the footer */
-  footer
+  aside{
+
+    font-family: Verdana, Arial, sans-serif;
+  }
+  .banner
     {
+        text-align: left;
+        width: 14%;
+    }
+
+.related
+    {
+        width: 27%;
+    }
+    footer
+    {
+        align-content: center;
+        text-align: center;
         background-color:#f0f0f0;
         margin-top: -0.2em;
         padding: 0.5em;
         position: fixed;
         bottom: 0;
     }
+    /* styles for the main div containg the page information */
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border-top: solid 10em brown;
+    border-bottom: solid 10em brown;
+    background-color: #ffffff;
+  }
   
-  /* styles for the tablet class */
   .tablet {
     display: none;
   }
-  
-  /* styles for the equip class (e.g. images in the about page) */
-  .equip {
-    display: none;
-  }
-  
   /* Media query for tablet viewport target - minimum width: 480px */
   
   @media only screen and (min-width: 688px) {
-    img 
-{
-    max-width: 100%;
-}
-#container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
     /* styles specifies horizontal dispay for navigation links */
     nav li {
       display: block;
@@ -127,16 +122,19 @@ body {
   
     /* styles for main */
     main {
-      clear: right;
-      margin-top: 4em;
-      width: 70%
+      width: 70%; 
+      float: left; 
+      padding:10px; 
+      float:left; 
     }
-  
-    aside {
-      float: left;
-      margin: 0 1.5%;
-      width: 20%;
-    }
+    aside { 
+      float:right; 
+      width: 20%; 
+      float: right; 
+      padding:5px;  
+      margin:20px; 
+      height:30px; 
+  } 
   
     /* styles for mobile class */
     .mobile {
@@ -150,7 +148,6 @@ body {
   
     /* styles for equip class */
     .equip {
-      width: 40%;
       display: block;
       float: left;
       margin-right: 1.5em;
@@ -183,15 +180,10 @@ body {
   
   /* Media Query for desktop view port */
   @media only screen and (min-width: 999px) {
-    img 
-{
-    max-width: 100%;
-}
-#container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    /* styles for container id */
+    #container {
+      width: 100%;
+    }
   
     /* styles for ul in nav for links */
     nav ul {
@@ -220,16 +212,18 @@ body {
   
     /* styles for the main */
     main {
-      width: 80%; 
-      float: right; 
-      padding:10px;
+      width: 70%; 
+      float: left; 
+      padding:10px; 
+      float:left; 
     }
     aside { 
-      float:left; 
+      float:right; 
       width: 20%; 
+      float: right; 
       padding:5px;  
-      margin:10px; 
-      height:100px; 
+      margin:20px; 
+      height:30px; 
   } 
 
   
@@ -282,4 +276,3 @@ body {
       background: -webkit-linear-gradient(180deg, white, #ffff99);
       background-attachment: fixed;
     } */
-  

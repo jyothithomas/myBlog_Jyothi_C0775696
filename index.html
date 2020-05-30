@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe's Personal Blog</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <div id="container">
@@ -30,27 +30,42 @@
 
       <!-- main content of the website -->
       <main>
-        <p>
-          Welcome to Joe's personal Blog---- My objective is to spread happiness to your life with tips on positivity.
-        </p>
-        <!-- div for the mobile view port -->
-        <div class="mobile">
-          <h3>Biography</h3>
-          <p>Name: Jyothi Thomas <br />
-             Country of Birth: India<br />
-            Date of Birth: 05-Sep-1990</p>
-          <h4>Online Motivational class Hours:</h4>
-          <p>
-            Monday - Thursday: 6:00 pm <br />
-            Friday: 4:00 pm <br />
+        <div id="bannerdiv">
+          <img class ="banner" src="images/joebanner.png" alt="home_banner"><br/>
+          <p class="welcometext">
+            <h1>Welcome to Joe's personal Blog!</h1>
+          <h2>Inspirational Quotes</h2>
+            "Things don't have to change the world to be important"- Steve Jobs <br />
+            "Don’t compare yourself with anyone in this world…if you do so, you are insulting yourself"- Bill Gates
           </p>
         </div>
       </main>
-
-      <!-- footer of the webpage -->
+      <aside>
+        <section class="relatedlinks">
+          <h2>My recent Works</h2> 
+          <article>
+            <h3><a href="https://github.com/jyothithomas/C0775696_W2020_MAD3125_FP" target="_blank"><img class="related" src="images/githubbanner.png" alt="Android App"></a></h3>
+            <p>Android - Utility Bill Calculator</p>
+          </article>
+          <article>
+            <h3><a href="https://github.com/jyothithomas/C0775696_W2020_MAD3125_MidTerm" target="_blank"><img class="related" src="images/githubbanner.png" alt="Tax"></a></h3>
+            <p>Android - Tax Calculator</p>
+          </article>
+          <article>
+            <h3><a href="https://github.com/jyothithomas/C0775696_MidTerm_MAD3115W2020" target="_blank"><img class="related" src="images/githubbanner.png" alt="github"></a></h3>
+            <p>iOS - Utility Bill Calculator</p>
+          </article>
+        </section>
+      </aside>
+            <!-- footer of the webpage -->
       <footer>
-        &copy; Copyright 2020. All Rights reserved. <br />
-        <a href="jyothithomas.05@gmail.com">jyothithomas.05@gmail.com</a>
+        <div id = "copyright">
+          <p>&copy; Copyright 2020. All Rights reserved. <br />
+            <a href="jyothithomas.05@gmail.com">jyothithomas.05@gmail.com</a></p>
+        </div>
+        <div id = "social">
+        <p>Find me on Social Media</p>
+       </div>
       </footer>
     </div>
   </body>
