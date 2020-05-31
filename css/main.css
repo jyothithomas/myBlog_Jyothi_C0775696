@@ -97,8 +97,8 @@ nav {
     margin-top: 0.5em;
     padding: 1em;
     border-radius: 1em;
-    border-top: solid 10em brown;
-    border-bottom: solid 10em brown;
+    border-top: solid 2em brown;
+    border-bottom: solid 5em brown;
     background-color: #ffffff;
   }
   
@@ -218,7 +218,7 @@ nav {
     main {
       width: 75%; 
       float: left; 
-      padding:10px; 
+      padding:5px; 
       float:left; 
     }
     aside { 

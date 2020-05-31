@@ -84,6 +84,9 @@ body {
     border-bottom: solid 0.2em brown;
     background-color: #ffffff;
   }
+  aside{
+    display: none;
+  }
   
   /* styles for the footer */
   footer
@@ -107,7 +110,7 @@ body {
   
   /* Media query for tablet viewport target - minimum width: 480px */
   
-  @media only screen and (min-width: 688px) {
+  @media only screen and (min-width: 480px) {
     img 
 {
     max-width: 100%;
@@ -136,7 +139,8 @@ body {
       padding:10px;
     }
     aside { 
-      float:left; 
+      display: none;
+      float: left;
       width: 20%; 
       padding:5px;  
       margin:10px; 
@@ -254,7 +258,7 @@ body {
         float: left;
         padding-left: 1em;
         margin-left: 1em;
-        margin-top: -15em;
+        margin-top: -20em;
         font-style: initial;
         font-weight: bolder;
     }
@@ -269,6 +273,7 @@ body {
     {
         
         color: brown;
+        font-weight: bolder;
         border: #f94c60;
     }
 
