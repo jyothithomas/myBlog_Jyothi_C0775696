@@ -167,6 +167,7 @@ body {
     /* styles for equipment titles (h1) */
     .title-equip {
       clear: left;
+      width: fit-content;
       padding-top: 0.5em;
     }
   
@@ -225,13 +226,38 @@ body {
       float: right; 
       padding:10px;
     }
-    aside { 
-      float:left; 
-      width: 20%; 
-      padding:5px;  
-      margin:10px; 
-      height:100px; 
-  } 
+    aside
+    {
+        display: block;
+        font-style: oblique;
+        font-size: 0.6em;
+        color: black;
+        margin-top: auto;
+        
+    }
+    aside ul
+    {
+        font-size: 2em;
+        float: left;
+        padding-left: 1em;
+        margin-left: 1em;
+        margin-top: -15em;
+        font-style: initial;
+        font-weight: bolder;
+    }
+
+    aside li
+    {
+        padding: 0.1em;
+        display: block;
+    }
+
+    aside li a
+    {
+        
+        color: brown;
+        border: #f94c60;
+    }
 
   
     /* styles for paragraphs inside main */
