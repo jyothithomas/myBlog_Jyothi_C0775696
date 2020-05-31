@@ -19,6 +19,10 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+  .social
+    {
+      width: 20%;
+    }
   
   /* styles for the logo in the header div */
   header {
@@ -159,6 +163,7 @@ body {
   
     /* styles for unordered list (class items) */
     .items {
+      background-color: lightblue;
       display: block;
       list-style-position: inside;
       /* margin-bottom: 5em; */
