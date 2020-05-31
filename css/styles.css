@@ -226,6 +226,10 @@ body {
       float: right; 
       padding:10px;
     }
+    .social
+    {
+      width: 40%;
+    }
     aside
     {
         display: block;
