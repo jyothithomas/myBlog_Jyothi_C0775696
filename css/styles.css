@@ -21,7 +21,7 @@ body {
   }
   .social
     {
-      width: 20%;
+      width: 30%;
     }
   
   /* styles for the logo in the header div */
@@ -185,6 +185,10 @@ body {
     dt {
       font-weight: bold;
       margin-top: 0.7em;
+    }
+    .social
+    {
+      width: 30%;
     }
   }
   
